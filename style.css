@@ -1,0 +1,93 @@
+body {
+	
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background: #777;
+	color: #777;
+	width: 960px;
+	font-size: 18px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	margin: auto;
+}
+
+header {
+	background: #ebebeb;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	float: auto;
+	margin-bottom: 5px;
+}
+
+nav {
+	background: #ebebeb;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	float: auto;
+}
+
+section {
+	background: #ebebeb;
+	float: left;
+	text-align: center;
+	width: 495px;
+	padding-top: 25px;
+	padding-bottom: 12px;
+}
+
+aside {
+	background: #ebebeb;
+	float: right;
+	text-align: center;
+	padding-top: 25px;
+	margin-bottom: 20px;
+	width: 450px;
+	height: 230px;
+}
+
+footer {
+	background: #ebebeb;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-top:15px;
+/* adding this instruction per classroom lecture   */
+	clear: both;
+}
+
+article {
+	color: #ebebeb;
+	background: #777;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 25px;
+	width: 480px;
+	Margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	color: #777;
+	background: #ebebeb;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	Margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 5px;
+
+}
+
+p {
+	color: #777;
+	background: #ebebeb;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	Margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 5px;
+
+}
+
