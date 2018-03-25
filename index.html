@@ -1,45 +1,95 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en-us">
 
-	<head>
-        <title>Wireframe</title>
-        <link rel="stylesheet" type="text/css" href="reset.css">
-		<link rel="stylesheet" type="text/css" href="style.css">
-	</head>
+<head>
+  <meta charset="UTF-8">
+  <title>About | Kevin Murtaugh</title>
+  <link rel="stylesheet" type="text/css" href="sassets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-	<body>
-		<header>
-			header
-		</header>
+  <title>Bootstrap 101 Template</title>
 
-		<nav>
-			nav
-		</nav>
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
 
-		<br>
-		
-		<section>
-            section
-            <br>
-            <br>
-			<article>
-                article
-                <br>
-                <br>
-                    <h1>h1, h2, h3</h1>
-					<p>p</p>
-                </article>
-		</section>
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]> -->
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <!-- [endif]-->
 
-		<aside>
-			aside
-		</aside>
 
-		<footer>
-			footer
-        </footer>
-        
+</head>
 
-	</body>
-	
+<body>
+  <div class="wrapper">
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Kevin Murtaugh</a>
+
+<!-- effectively replacing this code with bootstrap's "Link" navbar code.  
+  Need to make .navbar-left into .navbar-right & migrate these three href names into the bootstrap code.  
+  Per intstructions, need to add padding to code above in order for the navbar to slip under...          -->
+<!--      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>                                                             -->
+<!-- here... we... go...  -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+  
+      <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <a href="index.html">About</a>
+              <a href="portfolio.html">Portfolio</a>
+              <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+      </div>
+    </header>
+
+  
+
+  <div id="main-container" class="container">
+    <div class="row"></div>
+
+
+      <div class="col-xs-12" "col-m-8"></div>
+        <section class="main-section">
+          <h1>About Me</h1>
+
+    <div class="row"></div>
+      <div class="col-xs-12" "col-m-8"></div>
+        <img src="assets/images/rugby2.jpg" class="img-responsive" style="width:150px; height:200px" alt="Kevin Murtaugh">
+
+    <div class="row"></div>
+      <div class="col-xs-12" "col-m-8"></div>
+            <p>Kevin Murtaugh is a deeply experienced semiconductor professional adept at solving design challenges for Fortune 500 firms.  Kevin has undertaken Technical Sales, Operations, Business Development and even Technical Marketing roles to drive company growth.</p>
+
+            <p>Rugby player across five decades, stepped up to local club- and then state-level management roles. At the club level, added corporate sponsorships, IRS 501(c)3 certification, social media and advertising plus professional-level coaching to raise the club's level.  At the state level, added metrics for revenue, recrtuitment, travel miles and drove the return of divisional play, all as tools for Florida to improve its national ranking. </p>
+
+            <p>Proud parent of a young lady who is tops in her UCF Computer Science curriculum and an officer of both Theta Tau engineering /service fraternity and Society of Sales Engineers. These achievements are merely prelude to what will undoubtedly be her sterling professional career, which starts at Microsoft /Seattle, Summer, 2018.</p>
+
+    </section>
+
+  </div>
+
+<!-- details to implement sticky footer  -->
+  <div class="push"></div>
+</div>   <!-- /div to close "wrapper" started just under the <body> tag   -->
+ 
+  <footer>
+    <div class="container">
+      <div class="row"></div>
+      <div class="col-xs-12" "col-m-8"></div>
+             Copyright, All Rights Reserved &copy; 
+    </div>
+  </footer>
+
+</body>
+
 </html>
